@@ -1,0 +1,22 @@
+name: doda
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - doda/base
+  - doda/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - doda/user
+  core/drupal.dropbutton:
+    - doda/dropbutton
+  core/drupal.dialog:
+    - doda/dialog
+  file/drupal.file:
+    - doda/file
+  core/drupal.progress:
+    - doda/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.2.6'
