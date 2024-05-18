@@ -1,0 +1,10 @@
+/* Code below works for Slider*/
+.swiper {
+    width: auto;
+    height: 800px;
+  }
+
+.swiper-slide {
+    background-color: rgb(192, 255, 231);
+    
+}

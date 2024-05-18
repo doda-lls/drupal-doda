@@ -1,0 +1,20 @@
+{% set list_slides %}
+    {% for item in items %}
+        <div{{ item.attributes.addClass('field__item', 'swiper-slide') }}>{{ item.content }}</div>
+    {% endfor %}
+{% endset %}
+
+{% embed('doda:slider') %}
+    {% block slides %}
+        {{ list_slides }}
+    {% endblock %}
+{% endembed %}
+
+{# Renders #}
+{# {% for item in items %}
+    <div{{ item.attributes.addClass('field__item', 'swiper-slide') }}>Test slides</div>
+{% endfor %} #}
+
+{# Renders #}
+{# <h1>Test</h1>
+<p>testing paragraph</p> #}
