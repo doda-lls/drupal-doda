@@ -6,5 +6,8 @@
 
 .swiper-slide {
     background-color: rgb(192, 255, 231);
-    
+}
+.font-merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
 }

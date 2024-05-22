@@ -4,8 +4,11 @@ module.exports = {
     './{templates,components}/**/*.{twig,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'merriweather-regular': '"Merriweather", serif;'
+      }
+    },
   },
   plugins: [],
 }
-

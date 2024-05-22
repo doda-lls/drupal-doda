@@ -1,0 +1,11 @@
+.callout_field__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.callout_field__item {
+    color: red;
+}
+/* .visually_hidden {
+    display: none;
+} */

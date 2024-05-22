@@ -1,0 +1,10 @@
+name: Callout
+props:
+  type: object
+  properties: 
+  title:
+    type: string
+slots:
+  slides:
+    title: Callout Override
+    description: Styling that overrides the default Callout

@@ -1,0 +1,10 @@
+name: Navigation
+props:
+  type: object
+  properties: 
+  title:
+    type: string
+slots:
+  slides:
+    title: Navigation Override
+    description: Styling that overrides the default Navigation

@@ -1,0 +1,4 @@
+name: DODA Module
+type: module
+description: The description for DODA Module
+core_version_requirement: ^10
