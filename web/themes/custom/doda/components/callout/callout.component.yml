@@ -8,3 +8,13 @@ slots:
   slides:
     title: Callout Override
     description: Styling that overrides the default Callout
+libraryOverrides:
+  css:
+    component:
+      node_modules/@glidejs/glide/dist/css/glide.core.min.css: {}
+      callout.css: {}
+  js:
+    https://cdn.jsdelivr.net/npm/@glidejs/glide: {}
+    callout.js: {}
+
+        

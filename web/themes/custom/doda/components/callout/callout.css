@@ -1,11 +1,17 @@
-.callout_field__items {
+/* .callout_field__items {
     display: flex;
-    flex-direction: column;
-}
 
-.callout_field__item {
-    color: red;
+} */
+/* .glide__slides {
+    display: flex;
+} */
+.glide__slide {
+    color: purple;
 }
 /* .visually_hidden {
     display: none;
 } */
+
+.glide__slide:nth-child(1) {
+    color: red !important;
+}

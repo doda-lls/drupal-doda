@@ -8,9 +8,11 @@
 {% set callout_block %}
     {% if multiple %}
         <div{{ attributes.addClass(classes, 'callout_field__items') }}>
-        {% for item in items %}
-            <div{{ item.attributes.addClass('callout_field__item', 'visually_hidden') }}>{{ item.content }}</div>
-        {% endfor %}
+
+            {% for item in items %}
+                <div{{ item.attributes.addClass('callout_field__item', 'glide__slide', 'visually_hidden') }}>{{ item.content }}</div>
+            {% endfor %}
+
         </div>
     {% endif %}
 {% endset %}
