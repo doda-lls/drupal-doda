@@ -1,3 +1,9 @@
-#header-nav {
+/* #header-nav {
+    color: blue;
+} */
+#header-nav:hover {
     color: red;
+}
+#header-nav-primary-menu {
+    color: purple !important;
 }

@@ -2,12 +2,25 @@
 .swiper {
     width: auto;
     height: 800px;
+    margin-bottom: 100px
   }
 
 .swiper-slide {
-    background-color: rgb(192, 255, 231);
+    /* background-color: rgb(192, 255, 231); */
+    border-radius: 25px;
+    padding: 50px;
+    border: 1px solid green;
+    margin: 0 20px;
+}
+.swiper-scrollbar {
+  display: none;
 }
 .font-merriweather-regular {
   font-family: "Merriweather", serif;
   font-weight: 400;
+}
+.field__item a {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 5px 20px;
 }

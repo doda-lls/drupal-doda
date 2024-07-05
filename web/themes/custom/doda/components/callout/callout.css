@@ -1,17 +1,30 @@
-/* .callout_field__items {
+.callout_field__items {
     display: flex;
+    /* text-align: center; */
 
-} */
+}
+.glide__track {
+    margin: 0 auto;
+}
 /* .glide__slides {
     display: flex;
 } */
 .glide__slide {
     color: purple;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 30px;
+}
+.glide__slide img {
+    max-width: 400px;
 }
 /* .visually_hidden {
     display: none;
 } */
-
+.glide__slide .field__label {
+    display: none;
+}
 .glide__slide:nth-child(1) {
-    color: red !important;
+    color: blue;
+    margin-right: 10px;
 }
